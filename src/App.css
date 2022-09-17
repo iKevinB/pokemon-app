@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  margin-top: -5%;
+}
+
+body{
+  background:linear-gradient(to right, rgba(208, 174, 39, 0.758), rgba(212, 38, 38, 0.684)) ;
+}
+header{
+  background-color: rgb(35, 35, 35);
+  padding-top: 10%;
+  border-bottom: dashed 7px white;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+  margin-top: -5%;
+  
+}
+
+div .Container{
+  margin: 1px;
+  padding: 1%;
+  
+}
+div{
+  flex-flow: row wrap;
+  margin: 1%;
+  display: flex;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+img{
+  height: 140px;
+  margin: auto;
+}
+div .buscador{
+  position: relative;
+  left: 100%;
+  top: -10.5%;
+}
+label{
+  margin-top: 30%;
+  color: white;
+  font-size: 25px;
+
+}
+.card{
+  background-color: white;
+  border: solid 2px;
+  box-shadow: 9px 7px  7px  rgb(42, 40, 40);
+  transition: 0.4s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(2px) scale(1.2);
+
+}
+
+form{
+  margin-bottom: 8%;
+  width: 100%;
+}
+footer{
+  background-color: black;
+  overflow: hidden;
+  padding-bottom: 10%;
+  border-top: dashed 7px white
+
+}
+input{
+  text-align: center;
+}
